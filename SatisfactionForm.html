@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Customer Satisfaction Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  
+  <body>
+    <h1 id="title"> Customer Satisfaction Survey Form </h1>
+    <p id="description"> Please fill out this  feedback form.</p>
+<form id="survey-form">
+  <fieldset class="general"
+  <label for="name" id="name-label"> Name*<input class="space" id="name" placeholder="Mr/Mrs/Ms"type="text" required/></label>
+  
+    <label for="email" id="email-label"> Email* <input class="space" id="email" placeholder="tim@outlook.com" type="email" required/></label>
+  
+  <label for="number" id="number-label">Number<input class"space" id="number" type="number" min="13" max="120" placeholder="+64" /></label>
+  
+  <label for="occupation">Occupation
+    <select class="select" id="dropdown">
+      <option>Select one </option>
+      <option>Student</option>
+      <option>Employed Full time</option>
+      <option>Employed Part time</option>
+      <option>Self employed</option>
+      <option>Retired</option>
+ </select></label>
+<legend>How would you rate us?</legend>
+   <div class="orderly"><input id="very-good" type="checkbox" name="rate" value="very-good" checked/><label for="very-good">Very good</label></div>
+  <div class="orderly"><input id="good" type="checkbox" name="rate" value="good"/><label for="good">Good</label></div>
+  <div class="orderly"><input id="satisfied" type="checkbox" name="rate" value="satisfied"/><label for="satisfied">Satisfied</label></div>
+  <div class="orderly"><input id="fair" type="checkbox" name="rate" value="fair"/><label for="fair">Fair</label></div>
+  <div class="orderly"><input id="bad" type="checkbox" name="rate" value="bad"/><label for="bad">Bad</label></div>
+   
+   <label class="distance" for="experience">Share your experience<textarea id="experience" name="experience" rows="4" cols="20" placeholder="I had a great experience..."></textarea></label>
+       <input type="submit" id="submit" value="Submit" align="right"/>
+   </fieldset>
+   </fieldset>
+
+
+</form>
+    
+  </body>
+  
+  <body>
+    </html>
