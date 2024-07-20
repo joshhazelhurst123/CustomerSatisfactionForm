@@ -1,0 +1,82 @@
+/* file: styles.css */
+body{
+  background-color: rgb(25,110,150);
+  color:rgb(255,255,255);
+}
+form{
+  width:60vw;
+  margin:0 auto;
+  margin-right:auto;
+  margin-left:auto;
+}
+h1,p{
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.space{
+margin-bottom:10px;
+}
+textarea{
+  width:100%;
+  margin-left:0 auto;
+  margin-right:0 auto;
+  background-color:rgb(0,13,78);
+  color:white;
+  }
+label{
+  display:block;
+  
+}
+input{
+  width:100%;
+  background-color:rgb(0,13,78);
+  color:white;
+  position:relative;
+}  
+input[type="submit"]{
+  display:block;
+  width:30%;
+  background-color:rgb(0,13,78);
+  color:white;
+}
+input[type="text"],[type="email"],[type="number"]{
+  min-height:2em;
+  text:18px;
+}
+.general{
+  width:50vw;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  max-width:70%;
+  }
+.expand{
+  height:40vh;
+  border-top:;
+}
+.distance{
+  width:100%;
+}
+.set{
+  width:unset;
+  display:inline;  
+}
+.fix,select{
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.orderly{
+display:flex;
+margin-left:0;
+margin-right:0;
+}
+[type="checkbox"]{
+width:unset;
+color:black;
+}
+.select{
+background-color:#3f3f4f;
+color:white;
+}
